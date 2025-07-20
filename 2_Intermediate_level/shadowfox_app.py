@@ -6,7 +6,7 @@ st.set_page_config(page_title="Web Scraper", layout="centered")
 
 st.title("🌐 Website Web Scraper")
 
-# User input for website URL
+# User input for website 
 url = st.text_input("Enter website URL (include https://):", placeholder="https://shadowfox.in")
 
 scraped_data = ""
