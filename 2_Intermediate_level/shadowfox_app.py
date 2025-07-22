@@ -42,6 +42,7 @@ if st.button("Scrape Website"):
                 file_name="scraped_data.txt",
                 mime="text/plain"
             )
+            
 
         except Exception as e:
             st.error(f"❌ Error: {e}")
